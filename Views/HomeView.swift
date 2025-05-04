@@ -146,11 +146,13 @@ struct HomeView: View {
                         Text("“Never Stay Satisfied!”")
                             .font(.headline)
                             .foregroundColor(navy)
+
                         Text("(Edgar Colmenero, 2025, Chapter 1, LIFE)")
                             .font(.caption)
                             .italic()
-                            .foregroundColor(.secondary)
+                            .foregroundColor(.gray)    // ← darker gray now
                     }
+
 
                     // 3) Mini-map (right third)
                     GeometryReader { geo in
